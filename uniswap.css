@@ -1,0 +1,288 @@
+/* wrap整包 */
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    position: relative;
+    height: 100vh;;
+    box-shadow: inset 0px 360px 500px #F6EAF2;
+    font-family: sans-serif;
+}
+
+/* nav */
+.left img{
+    width: 30px;
+    margin-left: 10px;
+}
+.ethlogo img{
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+}
+.header-wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 80px;
+}
+.ethlogo{
+    display: flex;
+    background-color: white;
+    border-radius: 18px;
+    padding: 5px 10px;
+}
+.right{
+
+    display: flex;
+}
+.input1 img{
+    width: 50px;
+}
+.connectWallet{
+    color: #BC005A;
+    background-color: #FDEAF1;
+    text-decoration: none;
+    border: 2px solid white;
+    margin:0px 10px ;
+    padding: 5px 10px;
+    line-height: 30px;
+    border-radius: 18px;
+}
+.hamburgermenu{
+    background-color: white;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 30px;
+    margin-right: 15px;
+    padding: 0px 15px;
+    border-radius: 18px;
+}
+.mark{
+    line-height: 29px;
+    padding: 0px 5px;
+    font-weight: bolder;
+}
+
+
+
+/* content */
+.content{
+    position: relative;
+    margin: 5px 20px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    height: 260px;
+    box-shadow: 3px 1px 5px #E6E3E7;
+}
+.content-header img{
+    width: 19px;
+}
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.swap{
+    font-size: 16px;
+    
+    
+}
+.input1 input{
+    width: 100%;
+    
+    padding: 0px 12px;
+    margin-top: -1px;
+    height: 70px;
+    background-color: #F7F8FA;
+    font-size: 30px;
+    color: #C3C5CB;
+    border: none;
+    border-radius: 25px;
+    
+}
+.input1,
+.input2{
+    position: relative;
+}
+.input2{
+    margin-top: 35px;
+}
+
+.input2 input{
+    width: 100%;
+    padding: 0px 12px;
+    height: 70px;
+    background-color: #F7F8FA;
+    font-size: 30px;
+    color: #C3C5CB;
+    border: none;
+    border-radius: 25px;
+    margin-top: -28px;
+}
+.btn{
+    position: absolute;
+    font-weight: bold;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    display: flex;
+    background-color: #EDEEF2;
+    border-radius: 25px;
+    box-shadow: 0px 3px 7px 0px #E8E9EB;
+    
+    
+}
+.btn img{
+    width: 20px;
+    height: 20px;
+    margin: 7px 7px;
+    line-height: 20px;            
+}
+.eth{
+    padding: 5px 5px;
+    line-height: 22px;
+}
+.mark2{
+    padding: 5px 3px;
+    font-weight: bold;
+}
+.arrow{
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 47%;
+
+    z-index: 10;
+    background-color: #F7F8FA;
+    border-radius: 15px;
+    border: 5px solid white;
+    
+}
+
+.btn2{
+    font-weight: bold;
+    display: flex;
+    flex-grow: 2;
+    background-color: #EDEEF2;
+    padding: .3rem;
+    border-radius: 25px;
+    box-shadow: 0px 3px 7px 0px #E8E9EB;
+    position: absolute;
+    z-index: 3;
+    bottom: 50%;
+    right: 20px;
+    background-color: #E8006F;
+}
+.btn2 .token{
+    width: 100%;
+    font-size: 17px;
+    margin: 5px 1px;
+    margin-top: 10px;
+    padding-left: 7px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.mark3{
+    margin: 7px 10px;
+    text-align: right;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.wallet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDEAF1;
+    font-size: 18px;
+    height: 40px;
+    margin: .5rem;
+    border-radius: 25px;
+    color: #D20064;
+}
+
+
+
+/* 語言切換 */
+.language{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+.language a{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 5px;
+    color: #EA75AE;
+}
+.language div{
+    font-size: 12px;
+    width: 60%;
+    text-align: right;
+    color: #615F60;
+}
+
+
+/* footer */
+.footer{
+    background-color:#FFFFFF;
+    display: flex;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 220px;
+    border: 1px solid #EDEEF2;
+    box-shadow: 2px 1px #EDEEF2;
+
+}
+.footer a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 0px;
+
+}
+.swap2{
+    margin: 2px;
+    color: black;
+    font-weight: bolder;
+    background-color: #F7F8FA;
+    border-radius: 10px;
+}
+.pool,.vote,.Charts{
+    color: #565A69;
+    margin-top: 3px;
+}
+
+@media screen and (min-width:500px){
+    .content{
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:960px){
+    .footer{
+        
+        position: absolute;
+        margin-top: 20px;
+        top: 0;
+        left: 50px;
+    }
+}
+
+
+@media screen and (min-width:1280px){
+    .footer{
+        position: absolute;
+        margin-top: 20px;
+        
+        left: 40vw;
+    }
+}
